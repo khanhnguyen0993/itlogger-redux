@@ -1,0 +1,47 @@
+{
+  "logs": [
+    {
+      "id": 1,
+      "message": "Fix computers in Station 001",
+      "date": "09-09-2019",
+      "attention": false,
+      "tech": "Khanh Nguyen"
+    },
+    {
+      "id": 2,
+      "message": "Fix computers in Station 002",
+      "date": "10-11-2019",
+      "attention": true,
+      "tech": "John Doe"
+    },
+    {
+      "id": 3,
+      "message": "Fix computers in Station 003",
+      "date": "09-08-2019",
+      "attention": false,
+      "tech": "William Doe"
+    }
+  ],
+  "techs": [
+    {
+      "id": 1,
+      "firstName": "Khanh",
+      "lastName": "Nguyen"
+    },
+    {
+      "id": 2,
+      "firstName": "John",
+      "lastName": "Doe"
+    },
+    {
+      "id": 3,
+      "firstName": "William",
+      "lastName": "Doe"
+    },
+    {
+      "firstName": "Wesley",
+      "lastName": "Nguyen",
+      "id": 4
+    }
+  ]
+}
