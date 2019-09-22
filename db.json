@@ -1,25 +1,32 @@
 {
   "logs": [
     {
-      "id": 1,
-      "message": "Fix computers in Station 001",
-      "date": "09-09-2019",
-      "attention": false,
-      "tech": "Khanh Nguyen"
-    },
-    {
-      "id": 2,
-      "message": "Fix computers in Station 002",
-      "date": "10-11-2019",
+      "message": "Install 50 new computers",
       "attention": true,
-      "tech": "John Doe"
+      "tech": "Wesley Nguyen",
+      "date": "2019-09-21T14:11:53.003Z",
+      "id": 2
     },
     {
-      "id": 3,
-      "message": "Fix computers in Station 003",
-      "date": "09-08-2019",
+      "message": "Install Windows 10 in Station 10",
+      "attention": true,
+      "tech": "Wesley Nguyen",
+      "date": "2019-09-22T11:21:31.786Z",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "message": "Install Microsoft Office 365",
       "attention": false,
-      "tech": "William Doe"
+      "tech": "Wesley Nguyen",
+      "date": "2019-09-22T11:21:58.771Z"
+    },
+    {
+      "message": "Changed network connection.",
+      "attention": false,
+      "tech": "John Doe",
+      "date": "2019-09-22T11:37:12.467Z",
+      "id": 5
     }
   ],
   "techs": [
