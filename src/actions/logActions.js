@@ -5,10 +5,8 @@ import {GET_LOGS, SET_LOADING, LOGS_ERROR, ADD_LOG, DELETE_LOG,
 export const getLogs = () => async dispatch => {
   try {
     setLoading();
-
     const res = await fetch('/logs');
     const data = await res.json();
-
     dispatch({
       type: GET_LOGS,
       payload: data
@@ -16,7 +14,7 @@ export const getLogs = () => async dispatch => {
   } catch (err) {
     dispatch({
       type: LOGS_ERROR,
-      payload: err.response.data
+      payload: err.response.statusText
     })
   }
 }
@@ -25,7 +23,6 @@ export const getLogs = () => async dispatch => {
 export const addLog = log => async dispatch => {
   try {
     setLoading();
-
     const res = await fetch('/logs', {
       method: 'POST',
       body: JSON.stringify(log),
@@ -34,7 +31,6 @@ export const addLog = log => async dispatch => {
       }
     });
     const data = await res.json();
-
     dispatch({
       type: ADD_LOG,
       payload: data
